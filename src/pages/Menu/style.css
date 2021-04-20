@@ -1,0 +1,22 @@
+.menu__bar {
+  background-color: white !important;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu__left {
+  display: flex;
+}
+
+.menu__item {
+  color: black;
+  display: flex;
+  align-items: center;
+  margin-right: 10px !important;
+  cursor: pointer;
+}
+
+a { text-decoration: none; }
