@@ -44,7 +44,7 @@ export function* loginUserWatcher(action: Action<LoginUser>) {
 
     yield put({
       type: USER_LOGIN_FAILURE,
-      payload: error,
+      payload: error.message,
     });
   }
 }
