@@ -14,7 +14,7 @@ import { Action } from '../../types/redux';
 import { LoginUser } from '../../types/user';
 
 export function* loginCheckWatcher() {
-  const isAuth = JSON.parse(localStorage.getItem('isAuth') || '');
+  const isAuth = JSON.parse(localStorage.getItem('isAuth') || 'false');
 
     if (isAuth) {
       yield put({
