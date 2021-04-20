@@ -6,7 +6,7 @@ In the project directory, you can run:
 
 ### `npm install`
 
-### `npm start`
+### `npm start` (dev)
 
-### `npm run build`
+### `npm run build` (prod)
 
